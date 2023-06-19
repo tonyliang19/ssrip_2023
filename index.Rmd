@@ -35,8 +35,7 @@ source("rmd_config.R")
 
 ## Outline
 
-
-
+.pull-left[
 .large[Background]
  - .secondary[Mult-omics data integration]
  - .secondary[Nextflow]
@@ -52,6 +51,16 @@ source("rmd_config.R")
 .large[Conclusion ]
 
 .large[Acknowledgements]
+
+.large[.footnote[
+For code to original repo see [.secondary[here]](https://github.com/tonyliang19/multi-omics-pipeline)
+]]
+]
+
+.pull-right[
+.center[<img src ="materials/img/qr_to_repo.png" alt="matrix", width="80%"/>]
+]
+
 
 ---
 
