@@ -115,7 +115,13 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 
 ### Data
 
+- The Cancer Genome Atlas Program (TCGA) 
+- Religious Orders Study and Memory and Aging Project (ROSMAP)
+
 ---
+class: center
+background-image: url(materials/img/arc.png)
+background-size: 55%
 
 ### UBC Advanced Research Computing (ARC) Sockeye
 
