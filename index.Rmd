@@ -55,12 +55,41 @@ source("rmd_config.R")
 
 ---
 
-## Multi-Omics Data Integration
+## Motivation
 
 ---
 
+## Multi-Omics Data Integration
+
+---
 ## Nextflow
 
+
+.pull-left[
+![:scale 97%](materials/img/nxf.png)
+]
+.pull-right[
+![:scale 97%](materials/img/nextflow-story.png)
+]
+
+
+.pull-left[
+- Highly customizable
+
+- Parallel computation
+
+- Portable in multiple platforms
+]
+
+.pull-right[
+
+- Community pipelines and support
+
+- Any programming Language
+
+- `r con` Requires some CS knowledge
+
+]
 ---
 
 ## Apptainer
@@ -97,13 +126,13 @@ source("rmd_config.R")
 
 ## Expected Results
 
---- 
+---
 
-### Limitations and Future Direction
+### Limitations and Future Direction 1
 
 ---
 
-### Limitations and Future Direction
+### Limitations and Future Direction 2
 
 ---
 

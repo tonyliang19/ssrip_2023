@@ -34,6 +34,18 @@
   text-align: right;
 }
 
+/* images */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%; /* Adjust the width as needed */
+  object-fit: cover; /* Preserve aspect ratio */
+}
+
 /* Alignment */
 .right{
   text-align: right;
