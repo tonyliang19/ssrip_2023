@@ -1,8 +1,16 @@
-rmd_filename <- stringr::str_remove(knitr::current_input(),"\\.Rmd")
+#rmd_filename <- stringr::str_remove(knitr::current_input(),"\\.Rmd")
 # knitr::opts_chunk$set(
 #   fig.path = stringr::str_c("rmd_gfx/", rmd_filename, '/'),
 #   warning=FALSE, message=FALSE, dev="svg"
 # )
+
+knitr::opts_chunk$set(eval=FALSE)
+xaringanExtra::use_clipboard(
+  button_text = "Copy",
+  success_text = "Copied",
+  error_text = "Press Ctrl + C to copy"
+)
+
 options(htmltools.dir.version = FALSE)
 secondary = "#e98a15"
 primary = "#2c365e"

@@ -1,6 +1,6 @@
 ---
-title: "Replace Title"
-author: "Your name"
+title: "Multi Omics Pipeline"
+author: "Tony Liang"
 institute: "University of British Columbia"
 date: "Last modified -  `r Sys.Date()`"
 ---
@@ -8,12 +8,6 @@ date: "Last modified -  `r Sys.Date()`"
 ```{r setup, include=FALSE, echo=FALSE}
 # Dont modify this chunk
 source("rmd_config.R")
-knitr::opts_chunk$set(eval=FALSE)
-xaringanExtra::use_clipboard(
-  button_text = "Copy",
-  success_text = "Copied",
-  error_text = "Press Ctrl + C to copy"
-)
 ```
 
 ```{r css-extras, file="css-extras.R", echo=FALSE}
@@ -39,70 +33,106 @@ xaringanExtra::use_clipboard(
 
 ---
 
-# Title is not required
-
-To render this, use `xaringan::infinite_moon_reader()`
-- You will then see something in your `viewer` panel
-- .secondary[Note: the render on github could take sometime]
-- If you want to check the latest commit do:
-`https://domain_of_your_website?version=commit`
-
---
-
-Use `---` to separate page
-- You need to break lines between `---`, **NO space after it**
-
-Use `--` to show something after clicking the arrow button `<-` or `->`
-
---
-
-This is shown after you click it
-
-- use `.pull-left[ ... content goes here]` and `.pull-right[... content goes here]` to have divided columns, for example:
-
---
-
-.pull-left[
-- This is shown to the left
-- To make emphasis message use `.emphasis[]`
-
-.emphasis[
-This is emphasised]
-
-]
+## Outline
 
 
 
-.pull-right[
-- This is shown to the right
-- To make alert message use `.alert[]`
+.large[Background]
+ - .secondary[Mult-omics data integration]
+ - .secondary[Nextflow]
+ - Apptainer
+ 
 
-.alert[This is alerted]
-]
+.large[Research Questions]
+
+.large[Methods]
+
+.large[Expected Results]
+
+.large[Conclusion ]
+
+.large[Acknowledgements]
 
 ---
 
-class: middle, center
-
-.tertiary[.larger[To see more tags available, checkout the `materials/slides-style.css` file]]
+## Multi-Omics Data Integration
 
 ---
 
+## Nextflow
 
-class: middle, center
+---
+
+## Apptainer
+
+---
+
+## Workflow
+
+---
+
+### Research Question
+
+---
+
+### Data
+
+---
+
+### UBC Advanced Research Computing (ARC) Sockeye
+
+---
+
+## Methods
+
+---
+
+### Methods part 1
+
+---
+
+### Methods part 2
+
+---
+
+## Expected Results
+
+--- 
+
+### Limitations and Future Direction
+
+---
+
+### Limitations and Future Direction
+
+---
+
+## Conclusion
+
+---
+
+class: center, middle
 background-image: url(materials/img/website_bkg.png)
 background-position: top
 background-size: contain
 
-<br><br>
-.secondary[.center[.larger[Thanks!]]]
 
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+### Acknowledgements
 
+<br> 
+Amrit Singh, PhD
+
+CompBio Lab
+
+UBC ARC
+
+Nextflow
+
+<!----
 Credits to:
 
   [Stat 406 Lecture Slides @DJM](https://ubc-stat.github.io/stat-406/)
 
 <br><br>
+----->
 
-.secondary[.center[.larger[Questions?]]]
