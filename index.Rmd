@@ -66,6 +66,14 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 
 ## Motivation
 
+- Various machine learning methods
+- Parallel computation
+- Lack of CS knowledge in generic biological field
+- "Advanced" datascience
+- Helps community to determine
+
+.larger[.secondary[ADD on later]]
+
 ---
 
 ## Multi-Omics Data Integration
@@ -99,6 +107,12 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 - `r con` Requires some CS knowledge
 
 ]
+
+???
+
+Only briefly mention the platform used and the bullets.
+Rest could be explained in methods
+
 ---
 
 class: center
@@ -118,8 +132,12 @@ background-size: 55%
 
 .pull-right[
 ![:scale 100%](materials/img/apptainer.png)
-
 ]
+
+???
+
+Only briefly mention the platform
+Rest could be explained in methods
 
 ---
 
