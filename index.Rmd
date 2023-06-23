@@ -43,6 +43,12 @@ background-size: contain
 </table>
 ]]]
 
+???
+
+* Explain a little in the QR
+* Thanks to compbio lab to allow this project, everyone helped!
+
+
 ---
 
 
@@ -106,10 +112,6 @@ source("rmd_config.R")
 For code to original repo see [.secondary[here]](https://github.com/tonyliang19/multiomics-pipeline)
 ]]
 ]
-
-???
-
-* The QR code redirects to our lab website!
 
 ---
 
