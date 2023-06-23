@@ -202,6 +202,10 @@ The objective is to benchmark methods for multiomics data integration by:
   
   + `computation time`, etc
 
+???
+
+* Keep it short, since all details is explained in methods
+
 ---
 
 <!----
@@ -211,6 +215,10 @@ background-position: middle, center
 ----->
 
 .center[![:scale 77%](materials/img/workflow.png)]
+
+???
+
+* Explain, this is generic workflow of the pipeline
 
 ---
 
