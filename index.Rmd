@@ -74,6 +74,8 @@ source("rmd_config.R")
  
 ---->
 
+.large[Motivation]
+
 .large[Objectives]
 
 .large[Methods]
@@ -99,6 +101,32 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 
 ---
 
+## Multiomics
+
+Profiling of different molecular measurements (i.e. genes, proteins, metabolites) from same biological samples.
+
+
+**Omics** is the comprehensive study of all moluecules of particular type.
+
+- Each .secondary[omics] data follow $N \times P$ structure
+  + $N =$ Samples of Observations
+  
+  + $P =$ Predictors/variables
+
+- Compensate for missing or unreliable information in any single .secondary[omics] data
+
+---
+
+### Multiomics Data Integration
+
+.pull-left[
+
+![](materials/img/multi-omics.png)
+
+]
+
+---
+
 ## Motivation
 
 - Machine learning (`ML`) methods 
@@ -110,13 +138,6 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 - "Advanced" data science
 
 - **Multiomics** problem could also be viewed as mathematical or statistical problem
-
-
-
-
----
-
-## Multiomics Data Integration
 
 ---
 
