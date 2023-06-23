@@ -343,9 +343,10 @@ Rest could be explained in methods
 DT::datatable(
   data_tab,
   fillContainer = FALSE,
-  options=list(pageLength=5,scrollX=TRUE, 
+  options=list(pageLength=3,scrollX=TRUE, 
                searching=FALSE)
-)
+) %>%
+  DT::formatStyle(columns = colnames(data_tab), fontSize = '68%')
 ```
 
 

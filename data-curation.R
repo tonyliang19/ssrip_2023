@@ -15,8 +15,11 @@ read.markdown <- function(file, stringsAsFactors = FALSE, strip.white = TRUE, ..
 }
 
 # Read markdown file and change to dataframe with assigned names
-data_tab <- read.markdown("materials/data_table.md")
-colnames(data_tab) <- c("Disease/Physiological State", "Datasets",
-                        "Number of variables", "Number of samples",
-                        "Reference")
+# data_tab <- read.markdown("materials/data_table.md")
+# colnames(data_tab) <- c("Disease/Physiological State", "Datasets",
+#                         "Number of variables", "Number of samples",
+#                         "Reference")
 
+data_tab <- readxl::read_xlsx("materials/multiomics_data.xlsx") %>%
+            mutate_if(is.character, ~replace_na(.,""))
+data_tab
