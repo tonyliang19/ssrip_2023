@@ -35,3 +35,5 @@ pro = fa("thumbs-up", fill=green)
 con = fa("bomb", fill=orange)
 
 set.seed(12345)
+
+source("data-curation.R")

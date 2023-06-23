@@ -141,7 +141,9 @@ Rest could be explained in methods
 
 ---
 
-## Workflow
+background-image: url(materials/img/workflow.png)
+background-size: contain
+background-position: middle, center
 
 ---
 
@@ -151,8 +153,19 @@ Rest could be explained in methods
 
 ### Data
 
-- The Cancer Genome Atlas Program (TCGA) 
-- Religious Orders Study and Memory and Aging Project (ROSMAP)
+
+```{r data_table, eval=TRUE, echo=FALSE, warning=FALSE}
+# read data loaded from data-curation.R
+# and source from setup chunk
+DT::datatable(
+  data_tab,
+  fillContainer = FALSE,
+  options=list(pageLength=6,scrollX=TRUE, 
+               searching=FALSE)
+)
+```
+
+.footnote[This is a yet to be updated data table (under curation)]
 
 ---
 
