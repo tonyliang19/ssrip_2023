@@ -87,6 +87,9 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 .center[<img src ="materials/img/qr_to_repo.png" alt="matrix", width="80%"/>]
 ]
 
+???
+
+* The QR code redirects to our lab website!
 
 ---
 
@@ -111,9 +114,13 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 
 ---
 
+<!----
 background-image: url(materials/img/workflow.png)
 background-size: contain
 background-position: middle, center
+----->
+
+.center[![:scale 77%](materials/img/workflow.png)]
 
 ---
 
