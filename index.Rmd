@@ -320,6 +320,12 @@ Rest could be explained in methods
 - Web portal app to quickly denote a method suitable to your custom data.
 
   .emphasis[Easily scalable to your own computing cluster]
+  
+- Time, error rates, number of features selected by method
+  + Simulated (with/without noise)
+  
+  + Real dataset
+
 
 - Availability of list of curated multiomics dataset
   
