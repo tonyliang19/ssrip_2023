@@ -9,6 +9,15 @@ layout: true
 
 <div class="my-footer"><span><a href="https://tonyliang19.github.io/ssrip_2023" style="color:white">tonyliang19.github.io/ssrip_2023</a></span></div> 
 
+```{r setup, include=FALSE, echo=FALSE}
+# Dont modify this chunk
+source("rmd_config.R")
+```
+
+```{r css-extras, file="css-extras.R", echo=FALSE}
+# Dont remove this
+```
+
 ---
 
 background-image: url(materials/img/website_bkg.png)
@@ -50,17 +59,6 @@ background-size: contain
 
 
 ---
-
-
-```{r setup, include=FALSE, echo=FALSE}
-# Dont modify this chunk
-source("rmd_config.R")
-```
-
-```{r css-extras, file="css-extras.R", echo=FALSE}
-# Dont remove this
-```
-
 
 # Land acknowledgement
 
@@ -173,6 +171,12 @@ Profiling of different molecular measurements (i.e. genes, proteins, metabolites
 
 - **Multiomics** problem could also be viewed as mathematical or statistical problem
 
+
+???
+
+* Dont take too long in explain this
+* Try making a 'consecutive' story
+
 ---
 
 ## Objectives
@@ -264,11 +268,6 @@ interpretability of the results.
 - Use computational power and CS parallel algorithm
 
 ]
-
-???
-
-* Dont take too long in explain this
-* Try making a 'consecutive' story
 
 ---
 
