@@ -154,6 +154,8 @@ background-position: middle, center
 
 ### Data
 
+.pull-left-narrow[
+
 - Simulated data 
 
 - Bulk data (.secondary[Majority])
@@ -161,6 +163,12 @@ background-position: middle, center
 - Single-cell data
 
 - Spatial data
+]
+
+.pull-right-wide[
+![](materials/img/omics.png)
+]
+
 
 Many of these data are **high dimensional**, quite abstract to illustrate in plain words.
 
