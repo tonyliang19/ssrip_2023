@@ -251,6 +251,11 @@ interpretability of the results.
 
 ]
 
+???
+
+* Dont take too long in explain this
+* Try making a 'consecutive' story
+
 ---
 
 ## Nextflow
