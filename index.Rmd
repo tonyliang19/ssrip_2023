@@ -84,67 +84,6 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 ## Multiomics Data Integration
 
 ---
-## Nextflow
-
-
-.pull-left[
-![:scale 97%](materials/img/nxf.png)
-]
-.pull-right[
-![:scale 97%](materials/img/nextflow-story.png)
-]
-
-
-.pull-left[
-- Highly customizable
-
-- Parallel computation
-
-- Portable in multiple platforms
-]
-
-.pull-right[
-
-- Community pipelines and support
-
-- Any programming Language
-
-- `r con` Requires some CS knowledge
-
-]
-
-???
-
-Only briefly mention the platform used and the bullets.
-Rest could be explained in methods
-
----
-
-class: center
-<!---
-background-image: url(materials/img/arc.png)
-background-size: 55%
----->
-
-### UBC Advanced Research Computing (ARC) Sockeye and Apptainer
-<br>
-
-.pull-left[
-![:scale 90%](materials/img/arc.png)
-]
-
-<br>
-
-.pull-right[
-![:scale 100%](materials/img/apptainer.png)
-]
-
-???
-
-Only briefly mention the platform
-Rest could be explained in methods
-
----
 
 background-image: url(materials/img/workflow.png)
 background-size: contain
@@ -214,6 +153,68 @@ interpretability of the results.
 - Use computational power and CS parallel algorithm
 
 ]
+
+---
+
+## Nextflow
+
+
+.pull-left[
+![:scale 97%](materials/img/nxf.png)
+]
+.pull-right[
+![:scale 97%](materials/img/nextflow-story.png)
+]
+
+
+.pull-left[
+- Highly customizable
+
+- Parallel computation
+
+- Portable in multiple platforms
+]
+
+.pull-right[
+
+- Community pipelines and support
+
+- Any programming Language
+
+- `r con` Requires some CS knowledge
+
+]
+
+???
+
+Only briefly mention the platform used and the bullets.
+Rest could be explained in methods
+
+---
+
+class: center
+<!---
+background-image: url(materials/img/arc.png)
+background-size: 55%
+---->
+
+### UBC Advanced Research Computing (ARC) Sockeye and Apptainer
+<br>
+
+.pull-left[
+![:scale 90%](materials/img/arc.png)
+]
+
+<br>
+
+.pull-right[
+![:scale 100%](materials/img/apptainer.png)
+]
+
+???
+
+Only briefly mention the platform
+Rest could be explained in methods
 
 ---
 
