@@ -197,22 +197,39 @@ DT::datatable(
 
 ---
 
-class: center, middle
+class: middle
 background-image: url(materials/img/website_bkg.png)
 background-position: top
 background-size: contain
 
+<br>
+<br>
+<br>
 
-### Acknowledgements
+.large[.secondary[Thanks to my lab, the [CompBio Lab](https://cbl-hli.med.ubc.ca/)]]
+.pull-left[
+- Amrit Singh
+- Rishika Daswani
+- Roy He
+- Samuel Leung
+- Michael Yoon
+]
+.pull-right[
+- Jeffrey Tang
+- Dangtong Zhu
+- Young Woong Kim
+- Maryam Ahmadzadeh
+- Akshdeep Sandhu
+- Asees Singh
+]
 
-<br> 
-Amrit Singh, PhD
+<br>
 
-CompBio Lab
+And acknowledging to UBC ARC and Nextflow for enabling the successful execution of  this project.
 
-UBC ARC
+.footnote[For more information regarding Nextflow, please check [here](https://www.nextflow.io/)]
 
-Nextflow
+
 
 <!----
 Credits to:
