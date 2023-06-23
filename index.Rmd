@@ -1,5 +1,5 @@
 ---
-title: "Multi Omics Pipeline"
+title: "Benchmarking integrative multiomics methods for disease classification and biomarker discovery"
 author: "Tony Liang"
 institute: "University of British Columbia"
 date: "Last modified -  `r Sys.Date()`"
@@ -147,13 +147,36 @@ background-position: middle, center
 
 ---
 
-### Research Question
+### Research Questions
+
+- Curate multi-omics data from open-source databases
+
+- `Benchmarking` integrative multi-omics methods
 
 ---
 
 ### Data
 
+- Simulated data 
 
+- Bulk data (.secondary[Majority])
+
+- Single-cell data
+
+- Spatial data
+
+Many of these data are **high dimensional**, quite abstract to illustrate in plain words.
+
+
+???
+
+Briefly explain what each consits of
+
+Bulk -> majority of multiomics, this one ignores cell-type indenty, most basic one
+
+Single-cell -> new single cell technologies like CITE-seq , scRNA-seq, scATAC-seq and ECCITE-seq
+
+Spaital -> Spatial distirbution of cells is known
 
 ---
 
@@ -202,16 +225,15 @@ DT::datatable(
 
 ### Limitations and Future Direction
 
+`r con` Collection and clean process of multi-omics data
 
-- `r con` Collection and clean process of multi-omics data
+`r con` Missing source or supplementary materials from evaluated methods/papers
 
-- `r con` Missing source or supplementary materials from evaluated methods/papers
+`r pro` Feedback to bioinformatics or general research community
 
-- `r pro` Feedback to bioinformatics or general research community
+`r pro` Extendable to other field that requires intensive computation
 
-- `r pro` Extendable to other field that requires intensive computation
-
-- `r pro` Save time from finding and choosing hard to reproduce machine learning methods for biology
+`r pro` Save time from selecting reproducible ML methods for biological problem
 
 .emphasis[
 
