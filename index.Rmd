@@ -27,6 +27,22 @@ background-size: contain
 ####`r Sys.Date()`
 ]
 
+.pull-right[.center[.middle[
+<br/>
+<table>
+<tr>
+<td>![:scale 50%](materials/img/qr-slides.png)</td>
+<td>![:scale 50%](materials/img/qr-code.png)</td>
+<td>![:scale 50%](materials/img/qr-lab.png)</td>
+</tr>
+<tr>
+<td>`r fa("chalkboard-teacher")` Slides</td>
+<td>`r fa("code")` Code</td>
+<td>`r fa("at")` Lab website</td>
+</tr>
+</table>
+]]]
+
 ---
 
 
@@ -89,10 +105,6 @@ source("rmd_config.R")
 .large[.footnote[
 For code to original repo see [.secondary[here]](https://github.com/tonyliang19/multiomics-pipeline)
 ]]
-]
-
-.pull-right[
-.center[<img src ="materials/img/qr_to_repo.png" alt="matrix", width="80%"/>]
 ]
 
 ???
