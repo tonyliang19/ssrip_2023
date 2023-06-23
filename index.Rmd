@@ -74,7 +74,7 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 
 - "Advanced" data science
 
-- **Multiomics** problem could alsobe viewed as mathematical or statistical problem
+- **Multiomics** problem could also be viewed as mathematical or statistical problem
 
 
 
