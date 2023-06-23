@@ -147,14 +147,6 @@ background-position: middle, center
 
 ---
 
-### Research Questions
-
-- Curate multi-omics data from open-source databases
-
-- `Benchmarking` integrative multi-omics methods
-
----
-
 ### Data
 
 - Simulated data 
@@ -182,10 +174,33 @@ Spaital -> Spatial distirbution of cells is known
 
 ## Methods
 
-- .large[Data curation]
+.pull-left-narrow[
+.secondary[Curate multi-omics data from open-source databases
+]
 
-- .large[Benchmark and Evaluate]
+- Collect different omics data from same samples
 
+- AnnData for `Python`
+
+- MultiAssayExperiment for `R`
+
+- Normalization , batch correction
+]
+
+.pull-right-wide[
+.secondary[ `Benchmarking` integrative multi-omics methods
+]
+
+- Evaluate series of methods based on their tasks with classic metrics
+
+- Compare methods on different types of multi-omics data
+
+- Develop method that improve the predictive performance and
+interpretability of the results.
+
+- Use computational power and CS parallel algorithm
+
+]
 
 ---
 
@@ -195,13 +210,15 @@ Spaital -> Spatial distirbution of cells is known
 
   .emphasis[Easily scalable to your own computing cluster]
 
-- Availabily of list of curated multi-omics dataset
+- Availability of list of curated multi-omics dataset
   
-  + .secondary[Bulk dataset]
+  + .secondary[Disease state]
   
-  + .secondary[Single-cell]
+  + .secondary[Number of samples/variables]
   
-  + .secondary[Spatial]
+  + .secondary[Types of omics]
+  
+  + .secondary[Organ type]
 
 ---
 
