@@ -134,7 +134,10 @@ Profiling of different molecular measurements (i.e. genes, proteins, metabolites
   
   + High dimensional, $N << P$
 
+???
 
+* Dont go into too much detail of math
+* Use simple language
 
 ---
 
@@ -156,6 +159,11 @@ Profiling of different molecular measurements (i.e. genes, proteins, metabolites
 ![](materials/img/types-methods.png)
 
 ]
+
+???
+
+* Left is typical example of bulk
+* Right is most types of methods (there are more)
 
 ---
 
