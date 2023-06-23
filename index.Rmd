@@ -300,7 +300,10 @@ DT::datatable(
 ```
 
 
-.footnote[This is a yet to be updated data table (under curation)]
+.large[
+.footnote[
+This is a yet to be updated data table (under curation)
+]]
 
 ---
 
@@ -368,7 +371,10 @@ background-size: contain
 
 And acknowledging to UBC ARC and Nextflow for enabling the successful execution of  this project.
 
-.footnote[For more information regarding Nextflow, please check [here](https://www.nextflow.io/)]
+.large[
+.footnote[
+For more information regarding Nextflow, please check [here](https://www.nextflow.io/)
+]]
 
 
 
