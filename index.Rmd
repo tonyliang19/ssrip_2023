@@ -53,7 +53,7 @@ source("rmd_config.R")
 .large[Acknowledgements]
 
 .large[.footnote[
-For code to original repo see [.secondary[here]](https://github.com/tonyliang19/multi-omics-pipeline)
+For code to original repo see [.secondary[here]](https://github.com/tonyliang19/multiomics-pipeline)
 ]]
 ]
 
@@ -66,17 +66,22 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 
 ## Motivation
 
-- Various machine learning methods
-- Parallel computation
-- Lack of CS knowledge in generic biological field
-- "Advanced" datascience
-- Helps community to determine
+- Machine learning (`ML`) methods 
 
-.larger[.secondary[ADD on later]]
+- Reproducible workflows and parallel computation
+
+- Lack of CS knowledge in generic biological field
+
+- "Advanced" data science
+
+- **Multiomics** problem could alsobe viewed as mathematical or statistical problem
+
+
+
 
 ---
 
-## Multi-Omics Data Integration
+## Multiomics Data Integration
 
 ---
 ## Nextflow
@@ -175,7 +180,7 @@ Spaital -> Spatial distirbution of cells is known
 ## Methods
 
 .pull-left-narrow[
-.secondary[Curate multi-omics data from open-source databases
+.secondary[Curate multiomics data from open-source databases
 ]
 
 - Collect different omics data from same samples
@@ -188,12 +193,12 @@ Spaital -> Spatial distirbution of cells is known
 ]
 
 .pull-right-wide[
-.secondary[ `Benchmarking` integrative multi-omics methods
+.secondary[ `Benchmarking` integrative multiomics methods
 ]
 
 - Evaluate series of methods based on their tasks with classic metrics
 
-- Compare methods on different types of multi-omics data
+- Compare methods on different types of multiomics data
 
 - Develop method that improve the predictive performance and
 interpretability of the results.
@@ -210,7 +215,7 @@ interpretability of the results.
 
   .emphasis[Easily scalable to your own computing cluster]
 
-- Availability of list of curated multi-omics dataset
+- Availability of list of curated multiomics dataset
   
   + .secondary[Disease state]
   
@@ -242,7 +247,7 @@ DT::datatable(
 
 ### Limitations and Future Direction
 
-`r con` Collection and clean process of multi-omics data
+`r con` Collection and clean process of multiomics data
 
 `r con` Missing source or supplementary materials from evaluated methods/papers
 
@@ -261,6 +266,15 @@ You don't need to understand tons of cs to use this project
 ---
 
 ## Conclusion
+
+The best performing methods on the real-world data will provide insights into why certain methods are better than others with respect predictive performance and capturing the correct underlying biological processes. 
+
+Moreover, 
+
+- Inform the development of a new integrative method using .hand[graph neural networks] that is applicable to different types of multiomics data.
+
+- Highly relevant to the community utilizing multiomics data for
+their research.
 
 ---
 
