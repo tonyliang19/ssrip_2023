@@ -63,12 +63,18 @@ source("rmd_config.R")
 
 .pull-left[
 .large[Background]
- - .secondary[Multiomics data and integration]
+ 
+ - .secondary[Multiomics]
+ 
+ - .secondary[Data integration]
+ 
+<!----
  - .secondary[Nextflow]
  - UBC ARC and Apptainer
  
+---->
 
-.large[Research Questions]
+.large[Objectives]
 
 .large[Methods]
 
