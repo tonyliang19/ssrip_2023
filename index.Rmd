@@ -32,8 +32,11 @@ background-size: contain
 .pull-left[
 <br/>
 ####Tony Liang
+#### Supervisor: Dr. Amrit Singh
 ####University of British Columbia
+<!---
 ####`r Sys.Date()`
+---->
 ]
 
 .pull-right[.center[.middle[
