@@ -123,9 +123,11 @@ The objective is to benchmark methods for multiomics data integration by:
 2. Applying existing methods to simulated and real world datasets
 
 3. Compare methods based on 
-  + classification accuracy 
-  + features selected
-  + computation time, etc
+  + **classification accuracy **
+  
+  + .secondary[features selected]
+  
+  + `computation time`, etc
 
 ---
 
