@@ -371,7 +371,7 @@ background-size: contain
 
 <br>
 
-And acknowledging to UBC ARC and Nextflow for enabling the successful execution of  this project.
+And acknowledging to UBC ARC, work learn,  and Nextflow for enabling the successful execution of  this project.
 
 .large[
 .footnote[
