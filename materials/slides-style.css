@@ -10,13 +10,17 @@
   font-weight: bold;
 }
 
-.title-slide h1 {
-  font-weight: bold;
+/*
   font-family: var(--header-font-family);
   color: var(--title-slide-text-color);
   padding-bottom: 2em;
   margin-bottom: 2em;
   border-bottom: 3px solid;
+  border-color: var(--title-slide-text-color);
+*/
+.title-slide h1 {
+  font-weight: bold;
+  padding-bottom: 1em;
   border-color: var(--title-slide-text-color);
 }
 
@@ -208,6 +212,10 @@ ul{
   background-color: var(--secondary)
 }
 
+/* Hide Slide number */
+.remark-slide-number {
+  display: none;
+}
 
 /* Footnote */
 .footnote {
@@ -215,6 +223,23 @@ ul{
   bottom: 1em;
   padding-right: 4em;
   font-size: 70%;
+}
+
+/* Footer to display*/
+div.my-footer {
+    background-color: #002145;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+div.my-footer span {
+    font-size: 10pt;
+    color: #FFFFFF;
+    position: absolute;
+    left: 15px;
+    bottom: 2px;
 }
 
 /* Line Hover Indicator */

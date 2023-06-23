@@ -5,6 +5,30 @@ institute: "University of British Columbia"
 date: "Last modified -  `r Sys.Date()`"
 ---
 
+layout: true
+
+<div class="my-footer"><span><a href="https://tonyliang19.github.io/ssrip_2023" style="color:white">tonyliang19.github.io/ssrip_2023</a></span></div> 
+
+---
+
+background-image: url(materials/img/website_bkg.png)
+background-position: top
+background-size: contain
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+.center[### Benchmarking integrative multiomics methods for disease classification and biomarker discovery]
+
+
+.pull-left[
+<br/>
+###Tony Liang
+###University of British Columbia
+]
+
+---
+
+
 ```{r setup, include=FALSE, echo=FALSE}
 # Dont modify this chunk
 source("rmd_config.R")
@@ -13,6 +37,7 @@ source("rmd_config.R")
 ```{r css-extras, file="css-extras.R", echo=FALSE}
 # Dont remove this
 ```
+
 
 # Land acknowledgement
 
@@ -298,17 +323,17 @@ background-size: contain
 
 .large[.secondary[Thanks to my lab, the [CompBio Lab](https://cbl-hli.med.ubc.ca/)]]
 .pull-left[
-- Amrit Singh
-- Rishika Daswani
-- Roy He
-- Samuel Leung
+- Dr. Amrit Singh
+- Dr. Dantong Zhu
+- Dr. Young Woong Kim
+- Dr. Maryam Ahmadzadeh
 - Michael Yoon
 ]
 .pull-right[
 - Jeffrey Tang
-- Dangtong Zhu
-- Young Woong Kim
-- Maryam Ahmadzadeh
+- Rishika Daswani
+- Roy He
+- Samuel Leung
 - Akshdeep Sandhu
 - Asees Singh
 ]

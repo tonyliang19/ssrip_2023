@@ -9,3 +9,4 @@ xaringan::moon_reader:
     highlightLines: true
     countIncrementalSlides: false
     ratio: "16:9"
+  seal: false
