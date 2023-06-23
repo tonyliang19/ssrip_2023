@@ -288,6 +288,8 @@ Rest could be explained in methods
 
 ## Expected Results
 
+<!--- Replace with other xlsx here from Amrit --->
+
 ```{r data_table, eval=TRUE, echo=FALSE, warning=FALSE}
 # read data loaded from data-curation.R
 # and source from setup chunk
