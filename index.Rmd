@@ -154,6 +154,36 @@ background-position: middle, center
 ### Data
 
 
+
+---
+
+## Methods
+
+- .large[Data curation]
+
+- .large[Benchmark and Evaluate]
+
+
+---
+
+## Expected Results
+
+- Web portal app to quickly denote a method suitable to your custom data.
+
+  .emphasis[Easily scalable to your own computing cluster]
+
+- Availabily of list of curated multi-omics dataset
+  
+  + .secondary[Bulk dataset]
+  
+  + .secondary[Single-cell]
+  
+  + .secondary[Spatial]
+
+---
+
+## Expected Results
+
 ```{r data_table, eval=TRUE, echo=FALSE, warning=FALSE}
 # read data loaded from data-curation.R
 # and source from setup chunk
@@ -165,31 +195,29 @@ DT::datatable(
 )
 ```
 
+
 .footnote[This is a yet to be updated data table (under curation)]
 
 ---
 
-## Methods
+### Limitations and Future Direction
 
----
 
-### Methods part 1
+- `r con` Collection and clean process of multi-omics data
 
----
+- `r con` Missing source or supplementary materials from evaluated methods/papers
 
-### Methods part 2
+- `r pro` Feedback to bioinformatics or general research community
 
----
+- `r pro` Extendable to other field that requires intensive computation
 
-## Expected Results
+- `r pro` Save time from finding and choosing hard to reproduce machine learning methods for biology
 
----
+.emphasis[
 
-### Limitations and Future Direction 1
+You don't need to understand tons of cs to use this project
 
----
-
-### Limitations and Future Direction 2
+]
 
 ---
 
