@@ -201,9 +201,9 @@ The objective is to benchmark methods for multiomics data integration by:
 3. Compare methods based on 
   + **classification accuracy **
   
-  + .secondary[features selected]
+  + **features selected**
   
-  + `computation time`, etc
+  + **computation time**, etc
 
 ???
 
@@ -354,31 +354,9 @@ Rest could be explained in methods
 
 ## Expected Results
 
-- Web portal app to quickly denote a method suitable to your custom data.
-
-  .emphasis[Easily scalable to your own computing cluster]
-  
-- Time, error rates, number of features selected by method
-  + Simulated (with/without noise)
-  
-  + Real dataset
-
-
-- Availability of list of curated multiomics dataset
-  
-  + .secondary[Disease state]
-  
-  + .secondary[Number of samples/variables]
-  
-  + .secondary[Types of omics]
-  
-  + .secondary[Organ type]
-
----
-
-## Expected Results
-
 <!--- Replace with other xlsx here from Amrit --->
+
+.large[ 1\. Availability of list of curated multiomics dataset]
 
 ```{r data_table, eval=TRUE, echo=FALSE, warning=FALSE}
 # read data loaded from data-curation.R
@@ -386,17 +364,35 @@ Rest could be explained in methods
 DT::datatable(
   data_tab,
   fillContainer = FALSE,
-  options=list(pageLength=3,scrollX=TRUE, 
-               searching=FALSE)
+  options=list(pageLength=2,scrollX=TRUE, 
+               searching=FALSE, dom='ftp')
 ) %>%
-  DT::formatStyle(columns = colnames(data_tab), fontSize = '68%')
+  DT::formatStyle(columns = colnames(data_tab), fontSize = '85%')
 ```
 
 
-.large[
+<!---
+.large[]
+--->
+
 .footnote[
 This is a yet to be updated data table (under curation)
-]]
+]
+
+---
+
+## Expected Results
+
+.large[2\. Web portal app to quickly denote a method suitable to your custom data.]
+
+
+- Time, error rates, number of features selected by method
+  + Simulated (with/without noise)
+  
+  + Real dataset
+  
+.emphasis[`r pro` Easily scalable to your own computing cluster]
+
 
 ---
 
@@ -424,7 +420,7 @@ You don't need to understand tons of cs to use this project
 
 1. The best performing methods on the real-world data will provide insights into why certain methods are better than others with respect predictive performance and capturing the correct underlying biological processes. 
 
-2. Inform the development of a new integrative method using .hand[logistic regression] that is applicable to different types of multiomics data.
+2. Inform the development of a new integrative method that is applicable to different types of multiomics data.
 
 3. Highly relevant to the community utilizing multiomics data for
 their research.
