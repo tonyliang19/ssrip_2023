@@ -109,9 +109,9 @@ background-size: contain
 .pull-left[
 .large[Background]
  
- - .secondary[Multiomics]
+ - **Multiomics**
  
- - .secondary[Data integration]
+ - **Data integration**
  
 <!----
  - .secondary[Nextflow]
