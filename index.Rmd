@@ -82,6 +82,28 @@ background-size: contain
 
 ---
 
+## Motivation
+
+- Machine learning (`ML`) methods 
+
+- Reproducible workflows and parallel computation
+
+- Lack of CS knowledge in generic biological field
+
+- "Advanced" data science
+
+- **Multiomics** problem could also be viewed as mathematical or statistical problem
+
+
+???
+
+* Dont take too long in explain this
+* Try making a 'consecutive' story
+
+
+
+---
+
 ## Outline
 
 .pull-left[
@@ -96,8 +118,6 @@ background-size: contain
  - UBC ARC and Apptainer
  
 ---->
-
-.large[Motivation]
 
 .large[Objectives]
 
@@ -167,26 +187,6 @@ Profiling of different molecular measurements (i.e. genes, proteins, metabolites
 
 * Left is typical example of bulk
 * Right is most types of methods (there are more)
-
----
-
-## Motivation
-
-- Machine learning (`ML`) methods 
-
-- Reproducible workflows and parallel computation
-
-- Lack of CS knowledge in generic biological field
-
-- "Advanced" data science
-
-- **Multiomics** problem could also be viewed as mathematical or statistical problem
-
-
-???
-
-* Dont take too long in explain this
-* Try making a 'consecutive' story
 
 ---
 

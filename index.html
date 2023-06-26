@@ -94,6 +94,28 @@ background-size: contain
 
 ---
 
+## Motivation
+
+- Machine learning (`ML`) methods 
+
+- Reproducible workflows and parallel computation
+
+- Lack of CS knowledge in generic biological field
+
+- "Advanced" data science
+
+- **Multiomics** problem could also be viewed as mathematical or statistical problem
+
+
+???
+
+* Dont take too long in explain this
+* Try making a 'consecutive' story
+
+
+
+---
+
 ## Outline
 
 .pull-left[
@@ -108,8 +130,6 @@ background-size: contain
  - UBC ARC and Apptainer
  
 ----&gt;
-
-.large[Motivation]
 
 .large[Objectives]
 
@@ -179,26 +199,6 @@ Profiling of different molecular measurements (i.e. genes, proteins, metabolites
 
 * Left is typical example of bulk
 * Right is most types of methods (there are more)
-
----
-
-## Motivation
-
-- Machine learning (`ML`) methods 
-
-- Reproducible workflows and parallel computation
-
-- Lack of CS knowledge in generic biological field
-
-- "Advanced" data science
-
-- **Multiomics** problem could also be viewed as mathematical or statistical problem
-
-
-???
-
-* Dont take too long in explain this
-* Try making a 'consecutive' story
 
 ---
 
@@ -370,8 +370,8 @@ Rest could be explained in methods
 
 .large[ 1\. Availability of list of curated multiomics dataset]
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e49f8495c7334743aa37" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e49f8495c7334743aa37">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["Multiomics modeling of the immunome, transcriptome, microbiome, proteome and metabolome adaptations during human pregnancy","","","","","","","Cytokine-induced molecular responses in airway smooth muscle cells inform genome-wide assocation studies of asthma","",""],["longitudinal","","","","","","","case-control","",""],["plasma","plasma","serum","swab","blood","plasma","plasma","primary airway smooth muscle cells","primary airway smooth muscle cells","primary airway smooth muscle cells"],["cfRNA","proteins","proteins","microbiota","cells","metabolites","proteins","genotypes","mRNA","methylation"],["RNAseq","Luminex","Luminex","DNAseq","CyTOF","mass spec","Somalogic","Illumina Omni2.5v8v1A/Human Core Array","Illumina Human HT-12 v4 array","Illumina Human Methylation EPIC Beadchip"],[37275,62,62,18548,354,3485,1300,null,18279,786326],[68,null,null,null,null,null,null,268,null,null],["4 timepoints","","","","","","","asthma/non-asthma","",""],["multinomial","","","","","","","binary","",""],["","","","","","","","age, smoking status, race, sex, treatment","",""],["Bioinformatics 2019 35(1):95-103.","","","","","","","Genome Med. 2020 12(1):64.","",""],["https://nalab.stanford.edu/multiomics-pregnancy/","","","","","","","to ask authors","GSE146374","GSE146376"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Title<\/th>\n      <th>study design<\/th>\n      <th>sample-type<\/th>\n      <th>omic-type<\/th>\n      <th>technology<\/th>\n      <th>number of variables<\/th>\n      <th>number of observations<\/th>\n      <th>response<\/th>\n      <th>response-type<\/th>\n      <th>covariates<\/th>\n      <th>reference<\/th>\n      <th>data link/GEO<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":2,"scrollX":true,"searching":false,"dom":"ftp","columnDefs":[{"className":"dt-right","targets":[6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[2,10,25,50,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'font-size':'85%'});\nvar value=data[2]; $(this.api().cell(row, 2).node()).css({'font-size':'85%'});\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'font-size':'85%'});\nvar value=data[4]; $(this.api().cell(row, 4).node()).css({'font-size':'85%'});\nvar value=data[5]; $(this.api().cell(row, 5).node()).css({'font-size':'85%'});\nvar value=data[6]; $(this.api().cell(row, 6).node()).css({'font-size':'85%'});\nvar value=data[7]; $(this.api().cell(row, 7).node()).css({'font-size':'85%'});\nvar value=data[8]; $(this.api().cell(row, 8).node()).css({'font-size':'85%'});\nvar value=data[9]; $(this.api().cell(row, 9).node()).css({'font-size':'85%'});\nvar value=data[10]; $(this.api().cell(row, 10).node()).css({'font-size':'85%'});\nvar value=data[11]; $(this.api().cell(row, 11).node()).css({'font-size':'85%'});\nvar value=data[12]; $(this.api().cell(row, 12).node()).css({'font-size':'85%'});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a81fd1f3b730e016a089" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a81fd1f3b730e016a089">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["Multiomics modeling of the immunome, transcriptome, microbiome, proteome and metabolome adaptations during human pregnancy","","","","","","","Cytokine-induced molecular responses in airway smooth muscle cells inform genome-wide assocation studies of asthma","",""],["longitudinal","","","","","","","case-control","",""],["plasma","plasma","serum","swab","blood","plasma","plasma","primary airway smooth muscle cells","primary airway smooth muscle cells","primary airway smooth muscle cells"],["cfRNA","proteins","proteins","microbiota","cells","metabolites","proteins","genotypes","mRNA","methylation"],["RNAseq","Luminex","Luminex","DNAseq","CyTOF","mass spec","Somalogic","Illumina Omni2.5v8v1A/Human Core Array","Illumina Human HT-12 v4 array","Illumina Human Methylation EPIC Beadchip"],[37275,62,62,18548,354,3485,1300,null,18279,786326],[68,null,null,null,null,null,null,268,null,null],["4 timepoints","","","","","","","asthma/non-asthma","",""],["multinomial","","","","","","","binary","",""],["","","","","","","","age, smoking status, race, sex, treatment","",""],["Bioinformatics 2019 35(1):95-103.","","","","","","","Genome Med. 2020 12(1):64.","",""],["https://nalab.stanford.edu/multiomics-pregnancy/","","","","","","","to ask authors","GSE146374","GSE146376"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Title<\/th>\n      <th>study design<\/th>\n      <th>sample-type<\/th>\n      <th>omic-type<\/th>\n      <th>technology<\/th>\n      <th>number of variables<\/th>\n      <th>number of observations<\/th>\n      <th>response<\/th>\n      <th>response-type<\/th>\n      <th>covariates<\/th>\n      <th>reference<\/th>\n      <th>data link/GEO<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":2,"scrollX":true,"searching":false,"dom":"ftp","columnDefs":[{"className":"dt-right","targets":[6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[2,10,25,50,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'font-size':'85%'});\nvar value=data[2]; $(this.api().cell(row, 2).node()).css({'font-size':'85%'});\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'font-size':'85%'});\nvar value=data[4]; $(this.api().cell(row, 4).node()).css({'font-size':'85%'});\nvar value=data[5]; $(this.api().cell(row, 5).node()).css({'font-size':'85%'});\nvar value=data[6]; $(this.api().cell(row, 6).node()).css({'font-size':'85%'});\nvar value=data[7]; $(this.api().cell(row, 7).node()).css({'font-size':'85%'});\nvar value=data[8]; $(this.api().cell(row, 8).node()).css({'font-size':'85%'});\nvar value=data[9]; $(this.api().cell(row, 9).node()).css({'font-size':'85%'});\nvar value=data[10]; $(this.api().cell(row, 10).node()).css({'font-size':'85%'});\nvar value=data[11]; $(this.api().cell(row, 11).node()).css({'font-size':'85%'});\nvar value=data[12]; $(this.api().cell(row, 12).node()).css({'font-size':'85%'});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
 
 
 &lt;!---
