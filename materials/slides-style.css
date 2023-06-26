@@ -214,7 +214,15 @@ ul{
 
 /* Hide Slide number */
 .remark-slide-number {
-  display: none;
+  /*display: none;*/
+  font-size: 12pt;
+  margin-bottom: 11.6px;
+  /*
+  margin-bottom: -11.6px;
+  margin-right: 10px;
+  */
+  /*color: white;*/ /* white */
+  opacity: 1;
 }
 
 /* Footnote */
