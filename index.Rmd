@@ -140,22 +140,34 @@ For code to original repo see [.secondary[here]](https://github.com/tonyliang19/
 
 Profiling of different molecular measurements (i.e. genes, proteins, metabolites) from same biological samples.
 
+.pull-left[
 
-- Compensate for missing or unreliable information in any single .secondary[omics] data
+- Compensate for missing or unreliable information in any single `omics` data
 
 - Multiple source of evidence pointing to same biological process are more likely
 
 
 <br>
 
-**Omics** is the comprehensive study of all moluecules of particular type.
+**Omics** is the comprehensive study of all molecules of a particular type within an organism.
 
-- Each .secondary[omics] data follow $N \times P$ structure
+- Each `omics` data follow $N \times P$ structure
   + $N =$ Samples of Observations
   
   + $P =$ Predictors/variables
   
   + High dimensional, $N << P$
+]
+
+.pull-right[
+<br>
+
+<br>
+
+
+
+![:scale 100%](materials/img/multi-omics.png)
+]
 
 ???
 
@@ -166,21 +178,8 @@ Profiling of different molecular measurements (i.e. genes, proteins, metabolites
 
 ### Multiomics Data Integration
 
-
-<br>
-<br>
-
-
-.pull-left[
-
-![](materials/img/multi-omics.png)
-
-]
-
-.pull-right[
-
-![](materials/img/types-methods.png)
-
+.center[
+![:scale 90%](materials/img/types-methods.png)
 ]
 
 ???
