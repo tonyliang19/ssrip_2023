@@ -123,6 +123,7 @@ background-size: contain
 
 .large[Methods]
 
+
 .large[Expected Results]
 
 .large[Conclusion ]
@@ -259,6 +260,10 @@ Spaital -> Spatial distirbution of cells is known
 
 ## Methods
 
+- Using **Nextflow** that eases writing of data-intensive computational pipelines
+
+- Running these pipelines on **UBC Advanced Research Computing cluster Sockeye**
+
 .pull-left-narrow[
 .secondary[Curate multiomics data from open-source databases
 ]
@@ -283,23 +288,35 @@ Spaital -> Spatial distirbution of cells is known
 - Develop method that improve the predictive performance and
 interpretability of the results.
 
-- Use computational power and CS parallel algorithm
-
+- Use computational power and CS parallel algorithm with Nextflow and UBC ARC Sockeye
 ]
+
 
 ---
 
-## Nextflow
+background-image: url(materials/img/nextflow-story.png)
+background-size: contain
+class: middle, center
 
+<!----
+.pull-left-narrow[
+![:scale 90%](materials/img/arc.png)
+]
+--->
 
+<!---
 .pull-left[
 ![:scale 97%](materials/img/nxf.png)
 ]
-.pull-right[
-![:scale 97%](materials/img/nextflow-story.png)
+--->
+
+<!---
+.pull-right-wide[
+![:scale 100%](materials/img/nextflow-story.png)
 ]
+---->
 
-
+<!---
 .pull-left[
 - Highly customizable
 
@@ -307,7 +324,6 @@ interpretability of the results.
 
 - Portable in multiple platforms
 ]
-
 .pull-right[
 
 - Community pipelines and support
@@ -317,36 +333,12 @@ interpretability of the results.
 - `r con` Requires some CS knowledge
 
 ]
+--->
+
 
 ???
 
 Only briefly mention the platform used and the bullets.
-Rest could be explained in methods
-
----
-
-class: center
-<!---
-background-image: url(materials/img/arc.png)
-background-size: 55%
----->
-
-### UBC Advanced Research Computing (ARC) Sockeye and Apptainer
-<br>
-
-.pull-left[
-![:scale 90%](materials/img/arc.png)
-]
-
-<br>
-
-.pull-right[
-![:scale 100%](materials/img/apptainer.png)
-]
-
-???
-
-Only briefly mention the platform
 Rest could be explained in methods
 
 ---
@@ -389,9 +381,10 @@ This is a yet to be updated data table (under curation)
   + Simulated (with/without noise)
   
   + Real dataset
-  
-.emphasis[`r pro` Easily scalable to your own computing cluster]
 
+<!---  
+.emphasis[`r pro` Easily scalable to your own computing cluster]
+--->
 
 ---
 
@@ -407,11 +400,11 @@ This is a yet to be updated data table (under curation)
 
 `r pro` Save time from selecting reproducible ML methods for biological problem
 
+
 .emphasis[
-
 You don't need to understand tons of cs to use this project
-
 ]
+
 
 ---
 

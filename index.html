@@ -47,7 +47,7 @@ background-size: contain
 #### Supervisor: Dr. Amrit Singh
 ####University of British Columbia
 &lt;!---
-####2023-06-25
+####2023-06-26
 ----&gt;
 ]
 
@@ -134,6 +134,7 @@ background-size: contain
 .large[Objectives]
 
 .large[Methods]
+
 
 .large[Expected Results]
 
@@ -271,6 +272,10 @@ Spaital -&gt; Spatial distirbution of cells is known
 
 ## Methods
 
+- Using **Nextflow** that eases writing of data-intensive computational pipelines
+
+- Running these pipelines on **UBC Advanced Research Computing cluster Sockeye**
+
 .pull-left-narrow[
 .secondary[Curate multiomics data from open-source databases
 ]
@@ -295,23 +300,35 @@ Spaital -&gt; Spatial distirbution of cells is known
 - Develop method that improve the predictive performance and
 interpretability of the results.
 
-- Use computational power and CS parallel algorithm
-
+- Use computational power and CS parallel algorithm with Nextflow and UBC ARC Sockeye
 ]
+
 
 ---
 
-## Nextflow
+background-image: url(materials/img/nextflow-story.png)
+background-size: contain
+class: middle, center
 
+&lt;!----
+.pull-left-narrow[
+![:scale 90%](materials/img/arc.png)
+]
+---&gt;
 
+&lt;!---
 .pull-left[
 ![:scale 97%](materials/img/nxf.png)
 ]
-.pull-right[
-![:scale 97%](materials/img/nextflow-story.png)
+---&gt;
+
+&lt;!---
+.pull-right-wide[
+![:scale 100%](materials/img/nextflow-story.png)
 ]
+----&gt;
 
-
+&lt;!---
 .pull-left[
 - Highly customizable
 
@@ -319,7 +336,6 @@ interpretability of the results.
 
 - Portable in multiple platforms
 ]
-
 .pull-right[
 
 - Community pipelines and support
@@ -329,36 +345,12 @@ interpretability of the results.
 - <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#e98a15;overflow:visible;position:relative;"><path d="M459.1 52.4L442.6 6.5C440.7 2.6 436.5 0 432.1 0s-8.5 2.6-10.4 6.5L405.2 52.4l-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4c0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2c0-4.6-3-8.9-7.2-10.4L459.1 52.4zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9C256.5 100.3 232.7 96 208 96C93.1 96 0 189.1 0 304S93.1 512 208 512s208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16h-8z"/></svg> Requires some CS knowledge
 
 ]
+---&gt;
+
 
 ???
 
 Only briefly mention the platform used and the bullets.
-Rest could be explained in methods
-
----
-
-class: center
-&lt;!---
-background-image: url(materials/img/arc.png)
-background-size: 55%
-----&gt;
-
-### UBC Advanced Research Computing (ARC) Sockeye and Apptainer
-&lt;br&gt;
-
-.pull-left[
-![:scale 90%](materials/img/arc.png)
-]
-
-&lt;br&gt;
-
-.pull-right[
-![:scale 100%](materials/img/apptainer.png)
-]
-
-???
-
-Only briefly mention the platform
 Rest could be explained in methods
 
 ---
@@ -369,8 +361,8 @@ Rest could be explained in methods
 
 .large[ 1\. Availability of list of curated multiomics dataset]
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0345b5fb1f23ca743f3e" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-0345b5fb1f23ca743f3e">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["Multiomics modeling of the immunome, transcriptome, microbiome, proteome and metabolome adaptations during human pregnancy","","","","","","","Cytokine-induced molecular responses in airway smooth muscle cells inform genome-wide assocation studies of asthma","",""],["longitudinal","","","","","","","case-control","",""],["plasma","plasma","serum","swab","blood","plasma","plasma","primary airway smooth muscle cells","primary airway smooth muscle cells","primary airway smooth muscle cells"],["cfRNA","proteins","proteins","microbiota","cells","metabolites","proteins","genotypes","mRNA","methylation"],["RNAseq","Luminex","Luminex","DNAseq","CyTOF","mass spec","Somalogic","Illumina Omni2.5v8v1A/Human Core Array","Illumina Human HT-12 v4 array","Illumina Human Methylation EPIC Beadchip"],[37275,62,62,18548,354,3485,1300,null,18279,786326],[68,null,null,null,null,null,null,268,null,null],["4 timepoints","","","","","","","asthma/non-asthma","",""],["multinomial","","","","","","","binary","",""],["","","","","","","","age, smoking status, race, sex, treatment","",""],["Bioinformatics 2019 35(1):95-103.","","","","","","","Genome Med. 2020 12(1):64.","",""],["https://nalab.stanford.edu/multiomics-pregnancy/","","","","","","","to ask authors","GSE146374","GSE146376"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Title<\/th>\n      <th>study design<\/th>\n      <th>sample-type<\/th>\n      <th>omic-type<\/th>\n      <th>technology<\/th>\n      <th>number of variables<\/th>\n      <th>number of observations<\/th>\n      <th>response<\/th>\n      <th>response-type<\/th>\n      <th>covariates<\/th>\n      <th>reference<\/th>\n      <th>data link/GEO<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":2,"scrollX":true,"searching":false,"dom":"ftp","columnDefs":[{"className":"dt-right","targets":[6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[2,10,25,50,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'font-size':'85%'});\nvar value=data[2]; $(this.api().cell(row, 2).node()).css({'font-size':'85%'});\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'font-size':'85%'});\nvar value=data[4]; $(this.api().cell(row, 4).node()).css({'font-size':'85%'});\nvar value=data[5]; $(this.api().cell(row, 5).node()).css({'font-size':'85%'});\nvar value=data[6]; $(this.api().cell(row, 6).node()).css({'font-size':'85%'});\nvar value=data[7]; $(this.api().cell(row, 7).node()).css({'font-size':'85%'});\nvar value=data[8]; $(this.api().cell(row, 8).node()).css({'font-size':'85%'});\nvar value=data[9]; $(this.api().cell(row, 9).node()).css({'font-size':'85%'});\nvar value=data[10]; $(this.api().cell(row, 10).node()).css({'font-size':'85%'});\nvar value=data[11]; $(this.api().cell(row, 11).node()).css({'font-size':'85%'});\nvar value=data[12]; $(this.api().cell(row, 12).node()).css({'font-size':'85%'});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0e2e90310d39c1ad0f52" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-0e2e90310d39c1ad0f52">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["Multiomics modeling of the immunome, transcriptome, microbiome, proteome and metabolome adaptations during human pregnancy","","","","","","","Cytokine-induced molecular responses in airway smooth muscle cells inform genome-wide assocation studies of asthma","",""],["longitudinal","","","","","","","case-control","",""],["plasma","plasma","serum","swab","blood","plasma","plasma","primary airway smooth muscle cells","primary airway smooth muscle cells","primary airway smooth muscle cells"],["cfRNA","proteins","proteins","microbiota","cells","metabolites","proteins","genotypes","mRNA","methylation"],["RNAseq","Luminex","Luminex","DNAseq","CyTOF","mass spec","Somalogic","Illumina Omni2.5v8v1A/Human Core Array","Illumina Human HT-12 v4 array","Illumina Human Methylation EPIC Beadchip"],[37275,62,62,18548,354,3485,1300,null,18279,786326],[68,null,null,null,null,null,null,268,null,null],["4 timepoints","","","","","","","asthma/non-asthma","",""],["multinomial","","","","","","","binary","",""],["","","","","","","","age, smoking status, race, sex, treatment","",""],["Bioinformatics 2019 35(1):95-103.","","","","","","","Genome Med. 2020 12(1):64.","",""],["https://nalab.stanford.edu/multiomics-pregnancy/","","","","","","","to ask authors","GSE146374","GSE146376"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Title<\/th>\n      <th>study design<\/th>\n      <th>sample-type<\/th>\n      <th>omic-type<\/th>\n      <th>technology<\/th>\n      <th>number of variables<\/th>\n      <th>number of observations<\/th>\n      <th>response<\/th>\n      <th>response-type<\/th>\n      <th>covariates<\/th>\n      <th>reference<\/th>\n      <th>data link/GEO<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":2,"scrollX":true,"searching":false,"dom":"ftp","columnDefs":[{"className":"dt-right","targets":[6,7]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[2,10,25,50,100],"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'font-size':'85%'});\nvar value=data[2]; $(this.api().cell(row, 2).node()).css({'font-size':'85%'});\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'font-size':'85%'});\nvar value=data[4]; $(this.api().cell(row, 4).node()).css({'font-size':'85%'});\nvar value=data[5]; $(this.api().cell(row, 5).node()).css({'font-size':'85%'});\nvar value=data[6]; $(this.api().cell(row, 6).node()).css({'font-size':'85%'});\nvar value=data[7]; $(this.api().cell(row, 7).node()).css({'font-size':'85%'});\nvar value=data[8]; $(this.api().cell(row, 8).node()).css({'font-size':'85%'});\nvar value=data[9]; $(this.api().cell(row, 9).node()).css({'font-size':'85%'});\nvar value=data[10]; $(this.api().cell(row, 10).node()).css({'font-size':'85%'});\nvar value=data[11]; $(this.api().cell(row, 11).node()).css({'font-size':'85%'});\nvar value=data[12]; $(this.api().cell(row, 12).node()).css({'font-size':'85%'});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
 
 
 &lt;!---
@@ -392,9 +384,10 @@ This is a yet to be updated data table (under curation)
   + Simulated (with/without noise)
   
   + Real dataset
-  
-.emphasis[<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#0a8754;overflow:visible;position:relative;"><path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/></svg> Easily scalable to your own computing cluster]
 
+&lt;!---  
+.emphasis[<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#0a8754;overflow:visible;position:relative;"><path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/></svg> Easily scalable to your own computing cluster]
+---&gt;
 
 ---
 
@@ -410,11 +403,11 @@ This is a yet to be updated data table (under curation)
 
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#0a8754;overflow:visible;position:relative;"><path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.1s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/></svg> Save time from selecting reproducible ML methods for biological problem
 
+
 .emphasis[
-
 You don't need to understand tons of cs to use this project
-
 ]
+
 
 ---
 
