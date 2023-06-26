@@ -84,6 +84,17 @@ background-size: contain
 
 ## Motivation
 
+- Multiomics is a new emerging field of study
+
+- Many methods, but which one is best at what case?
+
+- Strategy of integrating multiomics data
+
+- "Gap" between biologists and computer-based multiomics methods.
+
+
+<!---
+
 - Machine learning (`ML`) methods 
 
 - Reproducible workflows and parallel computation
@@ -93,7 +104,9 @@ background-size: contain
 - "Advanced" data science
 
 - **Multiomics** problem could also be viewed as mathematical or statistical problem
+--->
 
+- **Multiomics** problem could also be viewed as mathematical or statistical problem
 
 ???
 
